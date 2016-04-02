@@ -81,7 +81,7 @@ GEM
     json (1.8.3)
     launchy (2.4.3)
       addressable (~> 2.3)
-    libv8 (3.16.14.13)
+    libv8 (3.11.8.17)
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
@@ -174,13 +174,14 @@ DEPENDENCIES
   haml
   jquery-rails
   launchy
-  libv8 (~> 3.16.14.7)
+  libv8 (~> 3.11.8.17)
   pg
   rails (= 3.2.18)
   rspec-rails
   sass-rails
   simplecov
   sqlite3
+  therubyracer
   uglifier
 
 BUNDLED WITH
